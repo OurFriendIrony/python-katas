@@ -3,3 +3,6 @@ coverage:
   round: down
   precision: 0
 
+ignore:
+  - tst/*
+
