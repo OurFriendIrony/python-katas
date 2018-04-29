@@ -1,3 +1,6 @@
 class RomanNumerals:
     def convert(self, input):
-        return ""
+        roman_string = ""
+        for x in range(0, input):
+            roman_string += "I"
+        return roman_string
