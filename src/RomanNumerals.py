@@ -5,6 +5,8 @@ class RomanNumerals:
             roman_string = "IV"
         elif input == 5:
             roman_string = "V"
+        elif input == 6:
+            roman_string = "VI"
         else:
             for x in range(0, input):
                 roman_string += "I"

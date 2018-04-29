@@ -23,7 +23,6 @@ class TestRomanNumerals:
         rm = RomanNumerals()
         assert rm.convert(5) == "V"
 
-    @pytest.mark.skip()
     def test_six(self):
         rm = RomanNumerals()
         assert rm.convert(6) == "VI"
