@@ -7,15 +7,21 @@
 ## Prereqs  
 `pip install -r requirements.txt`
   
+## Test Conventions  
+- test files must start with `test_` or end with `_test`  
+- test classes must start with `Test`  
+- test classes must not have an `__init__` method  
+- test methods must start with `test_`  
+
 ## Executing Tests  
-`coverage run -m unittest discover -v`
+`coverage run -m pytest -v`
 
 # Python Katas    
 ## Decimal to Roman Numeral  
   
 Kata for converting Decimal Numbers into Roman Numerals  
-`./src/roman_numerals.py`  
-`./tst/roman_numerals_test.py`  
+`./src/RomanNumerals.py`  
+`./tst/test_RomanNumerals.py`  
   
 
 eg  
